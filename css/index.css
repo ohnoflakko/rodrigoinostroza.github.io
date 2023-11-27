@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 
+/* General Properties*/
+
 *{
     font-family: 'Inconsolata', monospace;
     color: #9C9C9C;
@@ -7,6 +9,13 @@
 .break-line-main{
     display: flex;
     justify-content: center;
+}
+.break-line-content{
+    background-color: #9c9c9c;
+    width: 500px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 10px;
 }
 .break-line{
     background-color: #9c9c9c;
@@ -26,13 +35,7 @@ body{
     width: 200px;
 }
 
-header ,h5{
-    font-family: 'Inconsolata', sans-serif;
-    text-align: center;
-}
-
 nav{
-    /*border: 1px solid #9c9c9c;*/
     height: 60px;
     width: 100hr;
     display: flex;
@@ -52,4 +55,26 @@ nav ul li a {
 }
 nav ul li a:hover{
     color: #fff;
+    border-radius: 15px;
+}
+
+header{
+    color: #fff;
+}
+header ,h5{
+    font-family: 'Inconsolata', sans-serif;
+    text-align: center;
+}
+
+/* About Me Page */
+
+section{
+    text-align: center;
+}
+h1{
+    color: #fff;
+}
+section div img{
+    width: 50px;
+    height: 50px;
 }
