@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Inostroza</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./scripts/script.js"></script>
 </head>
 <body>
     <header>
         <img class="pfp" src="./src/pfp.jpg" alt="Rodrigo's photo"><br>
-        <div id="flags" class="flags">
-            <div class="flags__item">
-                <img src="./src/flags/es.png" alt="">
-                <img src="./src/flags/us.png" alt="">
+            <div id="flags" class="flags">
+                <div class="flags__item">
+                    <img src="./src/flags/es.png" data-language="es">
+                </div>
+                <div class="flags__item">
+                    <img src="./src/flags/us.png" data-language="en">
+                </div>
             </div>
-        </div>
         <div class="break-line-main"><div class="break-line"></div></div>
         Rodrigo Esteban Inostroza Garrido
-        <h5>17 Years Old - 24/05/2006 - Valdivia, Chile</h5>
+        <h5 data-section="profile" data-value="maindata">17 Years Old - 24/05/2006 - Valdivia, Chile</h5>
     </header>
     <nav>
         <ul>
@@ -29,8 +32,8 @@
     </nav>
     <div class="break-line-main"><div class="break-line-content"></div></div>
     <section>
-        <h1>About Me</h1>
-        <h3>Rodrigo is a 17-year-old teenager passionate about the world of programming, residing in the city of Valdivia, Chile.</h3>
+        <h1 data-section="profile" data-value="data">About Me</h1>
+        <h3 data-section="profile" data-value="aboutmecontent">Rodrigo is a 17-year-old teenager passionate about the world of programming, residing in the city of Valdivia, Chile.</h3>
         <div>
             <img src="./src/html.png" alt="HTML5">
             <img src="./src/css.png" alt="CSS">
@@ -43,55 +46,80 @@
             <img src="./src/git.png" alt="Git">
             <img src="./src/arduino.png" alt="Arduino">
         </div>
-        <h1>Relevant information</h1>
+        <h1 data-section="profile" data-value="rinfor">Relevant information</h1>
         <div class="cardscont">
             <div class="cards" id="rinf">
                 <img src="./src/titulo.jpg" alt="HS certificate">
             </div>
-            <p>
+            <p data-section="certificates" data-value="hs">
                 High School <br><br> Instituto Comercial de Valdivia
-            </p><a href="./src/files/HS_certificate.pdf">Generate certificate</a>
+            </p><a href="./src/files/HS_certificate.pdf" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         <div class="cardscont">
             <div class="cards" id="rinf">
                 <img src="./src/inacap.jpg" alt="Inacap certificate">
             </div>
-            <p>
+            <p data-section="certificates" data-value="inacap">
                 Certificate in Equipment Maintenance <br><br>Inacap 
-            </p><a href="#">Working</a>
+            </p><a href="#" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         <div class="cardscont">
             <div class="cards" id="rinf">
                 <img src="./src/cisco.jpg" alt="Cisco ertificate">
             </div>
-            <p>
+            <p data-section="certificates" data-value="cisco">
                 NDG Linux Unhatched<br><br>Cisco 
-            </p><a href="./src/files/Cisco_Certificate.pdf">Generate certificate</a>
+            </p><a href="./src/files/Cisco_Certificate.pdf" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         <div class="cardscont">
             <div class="cards" id="rinf">
                 <img src="./src/sololearn.png" alt="Sololearn Certificate">
             </div>
-            <p>
+            <p data-section="certificates" data-value="scss">
                 CSS course<br><br>Sololearn 
-            </p><a href="./src/files/CSS_Certificate.pdf">Generate certificate</a>
+            </p><a href="./src/files/CSS_Certificate.pdf" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         <div class="cardscont">
             <div class="cards" id="rinf">
                 <img src="./src/sololearn.png" alt="Sololearn Certificate">
             </div>
-            <p>
+            <p data-section="certificates" data-value="shtml">
                 HTML5 course<br><br>Sololearn 
-            </p><a href="./src/files/HTML_Certificate.pdf">Generate certificate</a>
+            </p><a href="./src/files/HTML_Certificate.pdf" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         
         <h1>Projects</h1>
-        <div class="cards">
+        <div class="cardsp" id="p1">
+            Alianzas
         </div>
-        <div class="cards">
+        <div class="cardsp" id="p2">
+            Komilet
         </div>
-        <div class="cards">
+        <div class="cardsp" id="p3">
+            ClJewelry
+        </div>
+        <div class="cardsp" id="p4">
+            Home Gesture
+        </div>
+        <div class="cardsp" id="p5">
+            U-Text
+        </div>
+        <div class="cardsp" id="p6">
+            AsciiGen
+        </div>
+        <div class="cardsp" id="p3">
+            MC SSTOOL
+        </div>
+        <div class="cardsp" id="p3">
+            Portafolios
         </div>
     </section>
+    <div class="break-line-main"><div class="break-line-content"></div></div>
+    <footer>
+        <a href="https://www.facebook.com/rodrinstrozag/?locale=es_LA"><img src="./src/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/ohnoflakko"><img src="./src/instagram.png" alt="Instagram"></a>
+        <a href="https://github.com/zRdriyw"><img src="./src/github.png" alt="GitHub"></a>
+        <a href="./content/contact.html"><img src="./src/contacto.png" alt="Contacto"></a>        
+    </footer>
 </body>
 </html>

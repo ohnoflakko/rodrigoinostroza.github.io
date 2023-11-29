@@ -57,9 +57,16 @@ nav ul li a:hover{
     border-radius: 15px;
 }
 
-.flags img{
+header .flags__item img{
     width: 35px;
-    text-align: center;
+}
+.flags {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.flags__item {
+    margin-right: 10px;
 }
 header{
     color: #fff;
@@ -104,4 +111,45 @@ section #rinf img{
     width: 300px;
     height: 200px;
     border-radius: 9px;
+}
+
+section .cardsp {
+    height: 300px;
+    width: 200px;
+    border: 1px solid #9c9c9c;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+    transition: 0.5s; /* Agrega una transición para suavizar los cambios */
+}
+
+section .cardsp img {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+section .cardsp:hover {
+    box-shadow: 1px 1px 3px 1px #fff;
+    width: 210px;
+    height: 310px;
+    margin: 10px;
+}
+
+/* Agrega una regla adicional para revertir los cambios */
+section .cardsp:not(:hover) {
+    box-shadow: none;
+    width: 200px;
+    height: 300px;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer a img{
+    margin: 8px;
+    width: 30px;
 }
