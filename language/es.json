@@ -1,5 +1,6 @@
 {
     "profile":{
+        "lan":"Elija un idioma",
         "maindata": "17 Años - 24/05/2006 - Valdivia, Chile",
         "data":"Sobre Mi",
         "aboutmecontent": "Rodrigo es un adolescente de 17 años, apasionado por el mundo de la programacion, residente de la ciudad de Valdivia, Chile",
@@ -13,5 +14,8 @@
         "scss":"Curso CSS <br><br> SoloLearn",
         "shtml":"Curso HTML5 <br><br> SoloLearn",
         "gcert":"Generar Certificado"
+    },
+    "projects":{
+        
     }
 }

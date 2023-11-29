@@ -62,7 +62,7 @@ header .flags__item img{
 }
 .flags {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
 }
 
 .flags__item {
@@ -99,7 +99,7 @@ section .cards{
 }
 section .cardscont{
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
 }
 
 section #rinf{
@@ -119,9 +119,9 @@ section .cardsp {
     border: 1px solid #9c9c9c;
     border-radius: 15px;
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
     vertical-align: top;
-    transition: 0.5s; /* Agrega una transición para suavizar los cambios */
+    transition: 0.5s; 
 }
 
 section .cardsp img {
@@ -138,7 +138,7 @@ section .cardsp:hover {
     margin: 10px;
 }
 
-/* Agrega una regla adicional para revertir los cambios */
+
 section .cardsp:not(:hover) {
     box-shadow: none;
     width: 200px;

@@ -10,14 +10,18 @@
 <body>
     <header>
         <img class="pfp" src="./src/pfp.jpg" alt="Rodrigo's photo"><br>
-            <div id="flags" class="flags">
-                <div class="flags__item">
-                    <img src="./src/flags/es.png" data-language="es">
-                </div>
-                <div class="flags__item">
-                    <img src="./src/flags/us.png" data-language="en">
-                </div>
+        <p data-section="profile" data-value="lan">Select a language</p> 
+        <div id="flags" class="flags">
+            <div class="flags__item">
+                <img src="./src/flags/es.png" data-language="es">
             </div>
+            <div class="flags__item">
+                <img src="./src/flags/us.png" data-language="en">
+            </div>
+            <div class="flags__item">
+                <img src="./src/flags/pt.png" data-language="pt">
+            </div>
+        </div>
         <div class="break-line-main"><div class="break-line"></div></div>
         Rodrigo Esteban Inostroza Garrido
         <h5 data-section="profile" data-value="maindata">17 Years Old - 24/05/2006 - Valdivia, Chile</h5>
@@ -88,7 +92,7 @@
             </p><a href="./src/files/HTML_Certificate.pdf" data-section="certificates" data-value="gcert">Generate certificate</a>
         </div>
         
-        <h1>Projects</h1>
+        <h1 data-section="profile" data-value="projects">Projects</h1>
         <div class="cardsp" id="p1">
             Alianzas
         </div>

@@ -1,0 +1,21 @@
+{
+    "profile": {
+        "lan":"Escolha um idioma",
+        "maindata": "17 Anos - 24/05/2006 - Valdivia, Chile",
+        "data": "Sobre Mim",
+        "aboutmecontent": "Rodrigo é um adolescente de 17 anos, apaixonado pelo mundo da programação, residente na cidade de Valdivia, Chile",
+        "rinfor": "Informações Relevantes",
+        "projects": "Projetos"
+    },
+    "certificates": {
+        "hs": "Ensino Médio <br><br> Instituto Comercial de Valdivia",
+        "inacap": "Certificado em manutenção de equipamentos <br><br> Inacap",
+        "cisco": "NDG Linux Unhatched <br><br> Cisco",
+        "scss": "Curso CSS <br><br> SoloLearn",
+        "shtml": "Curso HTML5 <br><br> SoloLearn",
+        "gcert": "Gerar Certificado"
+    },
+    "projects":{
+        
+    }
+}
