@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Inostroza</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../scripts/contact.js"></script>
+</head>
+<body>
+    <header>
+        <img class="pfp" src="../src/pfp.jpg" alt="Rodrigo's photo"><br>
+        <p data-section="profile" data-value="lan">Select a language</p> 
+        <div id="flags" class="flags">
+            <div class="flags__item">
+                <img src="../src/flags/es.png" data-language="es">
+            </div>
+            <div class="flags__item">
+                <img src="../src/flags/us.png" data-language="en">
+            </div>
+            <div class="flags__item">
+                <img src="../src/flags/pt.png" data-language="pt">
+            </div>
+        </div>
+        <div class="break-line-main"><div class="break-line"></div></div>
+        Rodrigo Esteban Inostroza Garrido
+        <h5 data-section="profile" data-value="maindata">17 Years Old - 24/05/2006 - Valdivia, Chile</h5>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/zRdriyw">GitHub</a></li>
+		    <li><a href="../index.html">Home</a></li>
+            <li><a href="https://www.instagram.com/ohnoflakko/  ">Instagram</a></li>
+            <li><a href="https://www.facebook.com/rodrinstrozag/">Facebook</a></li>
+	    </ul>
+    </nav>
+    <div class="break-line-main"><div class="break-line-content"></div></div>
+    <section id="contact">
+        <div class="form-box">
+            <div class="form-value">
+                <form action="https://formspree.io/f/xvojjdje" method="POST">
+                    <h2 data-section="form" data-value="h2">Contact Us</h2>
+                
+                    <div class="inputbox">
+                        <ion-icon name="accessibility-outline"></ion-icon>
+                        <input type="text" name="name" required>
+                        <label for="name" data-section="form" data-value="name">Your Name</label>
+                    </div>
+                
+                    <div class="inputbox">
+                        <ion-icon name="business-outline"></ion-icon>
+                        <input type="text" name="company" required>
+                        <label for="company" data-section="form" data-value="cname">Company Name</label>
+                    </div>
+                
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" required>
+                        <label for="email" data-section="form" data-value="email">Your Email</label>
+                    </div>
+                
+                    <div class="inputbox">
+                        <ion-icon name="keypad-outline"></ion-icon>
+                        <input type="tel" name="phone" required> <!-- Cambiado a type="tel" para números de teléfono -->
+                        <label for="phone" data-section="form" data-value="number">Your Phone Number</label>
+                    </div>
+                
+                    <div class="inputbox">
+                        <ion-icon name="chatbox-outline"></ion-icon>
+                        <textarea name="message" required></textarea>
+                        <label for="message" data-section="form" data-value="message">Your Message</label>
+                    </div>
+                
+                    <button data-section="form" data-value="send" type="submit">Enviar!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <div class="break-line-main"><div class="break-line-content"></div></div>
+    <footer>
+        <a href="https://www.facebook.com/rodrinstrozag/?locale=es_LA"><img src="../src/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/ohnoflakko"><img src="../src/instagram.png" alt="Instagram"></a>
+        <a href="https://github.com/zRdriyw"><img src="../src/github.png" alt="GitHub"></a>
+        <a href="../index.html"><img src="../src/home.png" alt="Home"></a>        
+    </footer>
+</body>
+</html>

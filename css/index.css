@@ -9,6 +9,7 @@
 .break-line-main{
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 .break-line-content{
     background-color: #9c9c9c;
@@ -39,18 +40,23 @@ nav{
     height: 60px;
     display: flex;
     justify-content: center;
+    margin: 5px;
     
+}
+nav ul{
+    padding: 0;
 }
 nav ul li {
     text-decoration: none;
     display: inline;
+    
 }
 nav ul li a {
     text-decoration: none;  
     font-family: sans-serif;
     color: #9c9c9c;
     transition: color 0.5s;
-    margin-inline: 15px;
+    margin-inline: 10px;
 }
 nav ul li a:hover{
     color: #fff;
@@ -114,7 +120,7 @@ section #rinf img{
 }
 
 section .cardsp {
-    height: 300px;
+    height: 360px;
     width: 200px;
     border: 1px solid #9c9c9c;
     border-radius: 15px;
@@ -131,19 +137,13 @@ section .cardsp img {
     transition: 0.5s;
 }
 
-section .cardsp:hover {
-    box-shadow: 1px 1px 3px 1px #fff;
-    width: 210px;
-    height: 310px;
-    margin: 10px;
+.projects .cardsp img{
+    height: 80px;
+}
+.projects .cardsp{
+    padding: 10px;
 }
 
-
-section .cardsp:not(:hover) {
-    box-shadow: none;
-    width: 200px;
-    height: 300px;
-}
 footer{
     height: 50px;
     text-align: center;
@@ -152,4 +152,131 @@ footer{
 footer a img{
     margin: 8px;
     width: 30px;
+}
+.cardsp {
+    position: relative;
+}
+
+.cardsp #lang {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.cardsp #lang img {
+    width: 30px;
+    height: 30px;
+    margin: 10 5px; 
+}
+
+#wumpus, #cl, #hg, #u{
+    width: 120px;
+}
+
+/*contact form*/
+#contact {
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px; /* Ajuste del margen */
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: none;
+}
+
+.inputbox input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+    margin: 10px;
+}
+.inputbox textarea {
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+    margin: 10px;
+    resize: none;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: -5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: none;
+    margin: 5px;
+}
+
+button:hover {
+    color: black;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
 }

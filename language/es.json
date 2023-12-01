@@ -16,6 +16,22 @@
         "gcert":"Generar Certificado"
     },
     "projects":{
-        
+        "aniversario": "El proyecto Alianzas 2023 es un sistema de estadísticas en tiempo real con el fin de saber qué alianza va en la cima.",
+        "komilet": "Komilet es un bot de Discord que brinda funciones para la entretenimiento de la comunidad, como el juego de Tic-Tac-Toe, entre otros.",
+        "cljewelry": "CLJewelry es un proyecto de la enseñanza media, cuyo fin era desarrollar una tienda semi-funcional y nació CLJewelry.",
+        "homegesture": "HomeGesture ayuda a personas que requieren asistencia en actividades diarias mediante gestos, como encender luces o ajustar el volumen de dispositivos.",
+        "utext": "U-Text es un editor de código abierto diseñado para dispositivos de bajos recursos, ya que otros editores pueden no brindar soporte debido a la obsolescencia de la máquina.",
+        "ascii": "Ascii Gen es un proyecto que permite transformar un texto común en un texto formado a base de símbolos para distintas plataformas, sea Discord, Facebook, etc.",
+        "mctool": "MC SSTOOL es una herramienta para mantener comunidades en Minecraft limpia, empleando métodos similares a los de Eric Zimmerman3",
+        "portfolio": "Con este portafolio, busco mostrar al mundo tanto empresarial como social, mis trabajos y experiencias a mi corta edad, aprendiendo algo nuevo día a día para no quedarme atrás."
+    },
+    "form": {
+        "h2": "Contáctenos",
+        "name": "Tu nombre",
+        "cname": "Nombre de la empresa",
+        "email": "Tu correo electrónico",
+        "number": "Tu número de teléfono",
+        "message": "Tu mensaje",
+        "send":"Enviar!"
     }
 }
