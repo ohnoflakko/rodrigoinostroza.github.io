@@ -280,3 +280,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
+.c, .astro{
+    width: 40px;
+    height: 45;
+}
